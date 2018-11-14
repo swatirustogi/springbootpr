@@ -12,8 +12,8 @@ public class BookController {
 	public List<Book> getBooks()
 	{
 		List l = new ArrayList<Book>();
-		Book b1 = new Book(1,"Java","abc");
-		Book b2 = new Book(2,"UNIX","xyz");
+		Book b1 = new Book(1,"Java","author3");
+		Book b2 = new Book(2,"UNIX","aaacccccccccccc");
 		l.add(b1);
 		l.add(b2);
 		
